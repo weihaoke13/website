@@ -11,11 +11,11 @@ class App extends Component {
         <Layout fixedHeader>
             <Header className='header-color' title={<Link style={{textDecoration:'none',color:'white'}} to="/">Weihao Ke | Profeilo</Link>}>
                 <Navigation>
-                    <Link to="/landingpage">Home</Link>
+                    {/* <Link to="/landingpage">Home</Link> */}
                     <a href="https://drive.google.com/file/d/1kr9rriW3vLcJntP7o8Rx7yaeB3l8vfnO/view?usp=sharing" rel="noopener noreferrer " target="_blank">
                       Resume
                     </a>
-                    <Link to="/aboutme">About Me</Link>
+                    {/* <Link to="/aboutme">About Me</Link> */}
                     <Link to="/projects">Projects</Link>
                     <Link to="/contact">Contact</Link>
                 </Navigation>

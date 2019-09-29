@@ -12,9 +12,7 @@ class Contact extends Component{
                              alt="avatar"
                              style={{height:'250px'}}
                         />
-                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>It is a long established fact that a reader will be distracted by the readable 
-                            content of a page when looking at its layout. The point of 
-                            using Lorem Ipsum is that it has a more-or-less normal 
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Producing high-quality websites and exceptional user experience
                               </p>
                     
                     
