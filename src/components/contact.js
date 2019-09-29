@@ -8,7 +8,8 @@ class Contact extends Component{
                 <Grid className='contact-grid'>
                     <Cell col={6}>
                         <h2>Weihao Ke</h2>
-                        <img src=" http://www.themes-lab.com/conbis/assets/images/avatars/avatar13_big.png"
+                        <img className='avatar-img '
+                             src= "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_oc=AQlu9AcMdZPQc_Q9HuMne_BCq4sKK9zPTdv4xJDHA9kxGnw7k4yHrXBP-hWpaBDTEtk&_nc_ht=scontent-lax3-1.xx&oh=1008d54bfb9bbae4336b2e49a426728f&oe=5DF94A2B"
                              alt="avatar"
                              style={{height:'250px'}}
                         />
