@@ -16,8 +16,8 @@ class App extends Component {
                       Resume
                     </a>
                     {/* <Link to="/aboutme">About Me</Link> */}
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    {/* <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link> */}
                 </Navigation>
             </Header>
             <Drawer title={<Link style={{textDecoration:'none',color:'grey'}} to="/">Weihao Ke | Profeilo</Link>}>

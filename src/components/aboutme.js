@@ -9,7 +9,7 @@ class AboutMe extends Component{
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign:'center'}}>
-                            <img src=" http://www.themes-lab.com/conbis/assets/images/avatars/avatar13_big.png"
+                            <img className='avatar-img' src=" https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_oc=AQlu9AcMdZPQc_Q9HuMne_BCq4sKK9zPTdv4xJDHA9kxGnw7k4yHrXBP-hWpaBDTEtk&_nc_ht=scontent-lax3-1.xx&oh=1008d54bfb9bbae4336b2e49a426728f&oe=5DF94A2B"
                              alt="avatar"
                              style={{height:'200px'}}
                             />
@@ -23,11 +23,18 @@ class AboutMe extends Component{
                     </Cell>
                     <Cell className='aboutme-right'col={8}>
                         <h2>Education</h2>
+                        <Education startYear={2015} 
+                                   endYear={2018}
+                                   schoolName="Pasadena City College"
+                        />
+
                         <Education startYear={2018} 
                                    endYear={2020}
                                    schoolName="University of California - Santa Cruz"
-                                   
-                                   />
+        
+                        />
+                        
+                       
                         <hr style={{borderTop:'3px solid #e22947'}}></hr>
                         <h2>Skills</h2>
                         <Skills
@@ -35,14 +42,14 @@ class AboutMe extends Component{
                             progress={60}
                         />
                          <Skills
-                            skill='HTML/CSS'
+                            skill='HTML & (S)CSS'
                             progress={80}
                         />
                          <Skills
                             skill='React'
                             progress={50}
                         />
-
+                        
                     
                     </Cell>
 
