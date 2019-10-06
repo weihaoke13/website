@@ -22,6 +22,7 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/budget' target="_blank"> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/budget/' target="_blank"> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
@@ -38,6 +39,7 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/currency' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/currency/' target='_blank'> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
@@ -54,6 +56,7 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/receipe' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/receipe/' target='_blank'> GitHub</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
@@ -79,6 +82,7 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                         <Button colored href='https://github.com/weihaoke13/weather' target="_blank"> GitHub</Button>
+                        <Button colored href='https://weihaoke13.github.io/weather/' target="_blank"> Demon</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name='share' />
@@ -95,6 +99,8 @@ class Projects extends Component{
                     </CardText>
                     <CardActions border>
                         <Button colored href='https://github.com/weihaoke13/RockPaperScissor/tree/master' target="_blank"> GitHub</Button>
+                        <Button colored href='https://weihaoke13.github.io/RockPaperScissor/' target="_blank"> Demon</Button>
+
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name='share' />
