@@ -63,6 +63,40 @@ class Projects extends Component{
                         </CardMenu>
                     </Card>
 
+                     {/* project 4*/}
+                    <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                        <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
+                            T-shirt customrize 
+                        </CardTitle>
+                        <CardText>
+                        T-shirt customrize app
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/weihaoke13/mytshirtapp' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/mytshirtapp/' target='_blank'> GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                    </Card>
+
+
+                    {/* project 5*/}
+                    <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                        <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
+                            To do list
+                        </CardTitle>
+                        <CardText>
+                            To do list App
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/weihaoke13/todolist' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/todolist/' target='_blank'> GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                    </Card>
                 </div>
                
                 
@@ -107,7 +141,24 @@ class Projects extends Component{
                     </CardMenu>
                 </Card>
                 
-                
+
+                {/* project 3*/}
+                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                    <CardTitle style={{color:'black', height:'176px',background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>
+                       Sign in
+                    </CardTitle>
+                    <CardText>
+                    Sign in page
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href='https://github.com/weihaoke13/signin' target="_blank"> GitHub</Button>
+                        <Button colored href=' https://weihaoke13.github.io/signin/' target="_blank"> Demon</Button>
+
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name='share' />
+                    </CardMenu>
+                </Card>
                 
                 </div>
             )
@@ -120,20 +171,21 @@ class Projects extends Component{
                 {/* project 1*/}
                 <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
                     <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png) center / cover'}}>
-                       
+                       Responsive
                     </CardTitle>
                     <CardText>
-                   
+                   Responsive website
                     </CardText>
                     <CardActions border>
-                        <Button colored href='https://google.com' target="_blank"> GitHub</Button>
+                        <Button colored href='https://github.com/weihaoke13/responsive' target="_blank"> GitHub</Button>
+                        <Button colored href='https://weihaoke13.github.io/responsive/' target="_blank"> Demon</Button>
                     </CardActions>
                     <CardMenu style={{color:'#fff'}}>
                         <IconButton name='share' />
                     </CardMenu>
                 </Card>
-                
-                
+
+               
                 
                 </div>
             )
