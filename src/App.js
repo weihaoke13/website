@@ -12,7 +12,7 @@ class App extends Component {
             <Header className='header-color' title={<Link style={{textDecoration:'none',color:'white'}} to="/">Weihao Ke | Profeilo</Link>}>
                 <Navigation>
                     {/* <Link to="/landingpage">Home</Link> */}
-                    <a href="https://drive.google.com/file/d/1AIc8LDQL-oZ_fwcM88Hvm-I99IkyYfdO/view?usp=sharing" rel="noopener noreferrer " target="_blank">
+                    <a href="https://drive.google.com/file/d/1w0oX3D-4x-bXJeQXPX1mVsP_ARK9tfis/view?usp=sharing" rel="noopener noreferrer " target="_blank">
                       Resume
                     </a>
                     {/* <Link to="/aboutme">About Me</Link> */}
