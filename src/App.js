@@ -23,7 +23,7 @@ class App extends Component {
             <Drawer title={<Link style={{textDecoration:'none',color:'grey'}} to="/">Weihao Ke | Profeilo</Link>}>
                 <Navigation>
                     <Link to="/landingpage">Home</Link>
-                    <a href="https://drive.google.com/file/d/1kr9rriW3vLcJntP7o8Rx7yaeB3l8vfnO/view?usp=sharing" rel="noopener noreferrer " target="_blank">
+                    <a href="https://drive.google.com/file/d/1w0oX3D-4x-bXJeQXPX1mVsP_ARK9tfis/view?usp=sharing" rel="noopener noreferrer " target="_blank">
                       Resume
                     </a>
                     <Link to="/aboutme">About Me</Link>
