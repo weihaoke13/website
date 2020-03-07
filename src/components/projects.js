@@ -56,7 +56,7 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/receipe' target='_blank'> GitHub</Button>
-                            <Button colored href='https://weihaoke13.github.io/receipe/' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/receipe/' target='_blank'> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
@@ -73,7 +73,7 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/mytshirtapp' target='_blank'> GitHub</Button>
-                            <Button colored href='https://weihaoke13.github.io/mytshirtapp/' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/mytshirtapp/' target='_blank'> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
@@ -91,7 +91,24 @@ class Projects extends Component{
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/todolist' target='_blank'> GitHub</Button>
-                            <Button colored href='https://weihaoke13.github.io/todolist/' target='_blank'> GitHub</Button>
+                            <Button colored href='https://weihaoke13.github.io/todolist/' target='_blank'> Demon</Button>
+                        </CardActions>
+                        <CardMenu style={{color:'#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                    </Card>
+
+                     {/* project 6*/}
+                     <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                        <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
+                            iStore
+                        </CardTitle>
+                        <CardText>
+                            iStore
+                        </CardText>
+                        <CardActions border>
+                            <Button colored href='https://github.com/weihaoke13/iStore' target='_blank'> GitHub</Button>
+                            <Button colored href='https://react-istore.netlify.com' target='_blank'> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
