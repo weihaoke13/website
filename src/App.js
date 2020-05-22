@@ -12,6 +12,7 @@ class App extends Component {
             <Header className='header-color' title={<Link style={{textDecoration:'none',color:'white'}} to="/">Weihao Ke | Profeilo</Link>}>
                 <Navigation>
                     {/* <Link to="/landingpage">Home</Link> */}
+                    {/* resume */}
                     <a href="https://resume.creddle.io/resume/84d5s0tgcn8" rel="noopener noreferrer " target="_blank">
                       Resume
                     </a>
