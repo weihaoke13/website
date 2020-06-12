@@ -17,8 +17,8 @@ class AboutMe extends Component{
                         <h2 style={{paddingTop:'2em',textAlign:'center'}}>Weihao Ke</h2>
                         <h4 style={{color:'grey',textAlign:'center'}}>Software Engineer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'100%'}}></hr>
-                        <h5>Current Location</h5>
-                        <p>Santa Cruz,CA</p>
+                        <h5>Current Location: </h5>
+                        <p>Los Angeles,CA</p>
 
                     </Cell>
                     <Cell className='aboutme-right'col={8}>
@@ -38,17 +38,46 @@ class AboutMe extends Component{
                         <hr style={{borderTop:'3px solid #e22947'}}></hr>
                         <h2>Skills</h2>
                         <Skills
+                            skill='HTML & (S)CSS'
+                            progress={80}
+                        />
+                        <Skills
                             skill='Javascript'
                             progress={60}
                         />
                          <Skills
-                            skill='HTML & (S)CSS'
-                            progress={80}
-                        />
-                         <Skills
-                            skill='React'
+                            skill='React.js'
                             progress={50}
                         />
+                         <Skills
+                            skill='Vue.js'
+                            progress={30}
+                        />
+                         <Skills
+                            skill='Python'
+                            progress={55}
+                        />
+                        <Skills
+                            skill='Java'
+                            progress={85}
+                        />
+                        <Skills
+                            skill='C++'
+                            progress={75}
+                        />
+                         <Skills
+                            skill='PostgreSQL'
+                            progress={65}
+                        />
+                        <Skills
+                            skill='MySQL'
+                            progress={55}
+                        />
+                         <Skills
+                            skill='Git(Version Control)'
+                            progress={80}
+                        />
+                        
                         
                     
                     </Cell>
