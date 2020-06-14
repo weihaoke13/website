@@ -8,8 +8,10 @@
 /* landing page css*/
 .landing-grid{
   text-align: center;
-  position: fixed;
-  /* top: 0; */
+  /* position: fixed; */
+  position: absolute;
+
+  top: 0;
   left: 0;
   height:100%;
   width:100%;
@@ -21,6 +23,7 @@
 .avatar-img{
   height:250px;
   border-radius: 50%;  
+  /* padding-top: 5em; */
 }
 
 .banner-text{
@@ -28,7 +31,7 @@
   opacity:0.8;
   width:72%;
   margin:auto;
-  border-radius:10px;
+  border-radius:8px;
 }
 
 .banner-text h1{
