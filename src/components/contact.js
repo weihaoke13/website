@@ -14,7 +14,12 @@ class Contact extends Component{
                              style={{height:'250px'}}
                         />
                         <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>Producing high-quality websites and exceptional user experience
-                              </p>
+                        </p>
+                        <p style={{width:'75%',margin:'auto',paddingTop:'1em'}}>
+                        I’m a self-starter and motivated team player with the ability to accomplish tasks independently and work with other people. Juggling an entire project or working alongside others has honed time management skills for effective planning and organization estimating budgets and completing tasks on deadline every time. I am confident I will be an asset to your organization. I can plan and utilize my workload to meet due dates.  
+
+                        </p>
+
                     
                     
                     </Cell>

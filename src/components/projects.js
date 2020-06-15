@@ -208,6 +208,49 @@ class Projects extends Component{
             )
         }
 
+        else if(this.state.activeTab === 3){
+            return(
+                <div className='project-grid'>
+
+                {/* project 1*/}
+                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                    <CardTitle style={{color:'black', height:'176px',background:'url(https://1000logos.net/wp-content/uploads/2016/10/Android-Logo.png) center / cover'}}>
+                       CMO
+                    </CardTitle>
+                    <CardText>
+                   Android App - Check Me Out(CMO)
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href='https://github.com/tonykyo3232/C.M.O' target="_blank"> GitHub</Button>
+                        {/* <Button colored href='https://weihaoke13.github.io/responsive/' target="_blank"> Demon</Button> */}
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name='share' />
+                    </CardMenu>
+                </Card>
+
+                {/* project 2*/}
+                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                    <CardTitle style={{color:'red', height:'176px',background:'url(https://i.ytimg.com/vi/06pWsB_hoD4/maxresdefault.jpg) center / cover'}}>
+                       {/* LeapCal */}
+                    </CardTitle>
+                    <CardText>
+                   Full Stack Project - LeapCal(Calendar App)
+                    </CardText>
+                    <CardActions border>
+                        <Button colored href='https://github.com/weihaoke13/leapCal' target="_blank"> GitHub</Button>
+                        {/* <Button colored href='https://weihaoke13.github.io/responsive/' target="_blank"> Demon</Button> */}
+                    </CardActions>
+                    <CardMenu style={{color:'#fff'}}>
+                        <IconButton name='share' />
+                    </CardMenu>
+                </Card>
+
+               
+                
+                </div>
+            )
+        }
     }
     
 
@@ -218,6 +261,7 @@ class Projects extends Component{
                     <Tab>React</Tab>
                     <Tab>Javascript</Tab>
                     <Tab>HTML/CSS</Tab>
+                    <Tab>Group Project</Tab>
                 </Tabs>
 
                 
