@@ -9,7 +9,7 @@ class App extends Component {
     return(
       <div >
         <Layout fixedHeader>
-            <Header className='header-color' title={<Link style={{textDecoration:'none',color:'white'}} to="/">Weihao Ke | Profeilo</Link>}>
+            <Header className='header-color' title={<Link style={{textDecoration:'none',color:'white'}} to="/">Weihao Ke | Portfolio</Link>}>
                 <Navigation>
                     {/* <Link to="/landingpage">Home</Link> */}
                     {/* resume */}
@@ -21,7 +21,7 @@ class App extends Component {
                     <Link to="/contact">Contact</Link> */}
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration:'none',color:'grey'}} to="/">Weihao Ke | Profeilo</Link>}>
+            <Drawer title={<Link style={{textDecoration:'none',color:'grey'}} to="/">Weihao Ke | </Link>}>
                 <Navigation>
                     <Link to="/landingpage">Home</Link>
                     <a href="https://resume.creddle.io/resume/84d5s0tgcn8" rel="noopener noreferrer " target="_blank">

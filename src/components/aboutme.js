@@ -38,7 +38,7 @@ class AboutMe extends Component{
                         <hr style={{borderTop:'3px solid #e22947'}}></hr>
                         <h2>Skills</h2>
                         <Skills
-                            skill='HTML & (S)CSS'
+                            skill='HTML'
                             progress={80}
                         />
                         <Skills
@@ -46,11 +46,11 @@ class AboutMe extends Component{
                             progress={60}
                         />
                          <Skills
-                            skill='React.js'
+                            skill='React'
                             progress={50}
                         />
                          <Skills
-                            skill='Vue.js'
+                            skill='Vue'
                             progress={30}
                         />
                          <Skills
@@ -74,7 +74,7 @@ class AboutMe extends Component{
                             progress={55}
                         />
                          <Skills
-                            skill='Git(Version Control)'
+                            skill='Git'
                             progress={80}
                         />
                         
