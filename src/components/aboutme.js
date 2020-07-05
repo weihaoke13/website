@@ -17,8 +17,8 @@ class AboutMe extends Component{
                         <h2 style={{paddingTop:'2em',textAlign:'center'}}>Weihao Ke</h2>
                         <h4 style={{color:'grey',textAlign:'center'}}>Software Engineer</h4>
                         <hr style={{borderTop:'3px solid #833fb2',width:'100%'}}></hr>
-                        <h5>Current Location: </h5>
-                        <p>Los Angeles,CA</p>
+                        <h5>Current Location</h5>
+                        <p>Santa Cruz,CA</p>
 
                     </Cell>
                     <Cell className='aboutme-right'col={8}>
@@ -38,14 +38,18 @@ class AboutMe extends Component{
                         <hr style={{borderTop:'3px solid #e22947'}}></hr>
                         <h2>Skills</h2>
                         <Skills
+<<<<<<< HEAD
                             skill='HTML'
                             progress={80}
                         />
                         <Skills
+=======
+>>>>>>> parent of c34da45... add more skills
                             skill='Javascript'
                             progress={60}
                         />
                          <Skills
+<<<<<<< HEAD
                             skill='React'
                             progress={50}
                         />
@@ -76,8 +80,15 @@ class AboutMe extends Component{
                          <Skills
                             skill='Git'
                             progress={80}
+=======
+                            skill='HTML & (S)CSS'
+                            progress={80}
                         />
-                        
+                         <Skills
+                            skill='React'
+                            progress={50}
+>>>>>>> parent of c34da45... add more skills
+                        />
                         
                     
                     </Cell>
