@@ -7,7 +7,7 @@ class LandingPage extends Component{
             <div style={{width:'100%', margin:'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                        <img sytle={{borderRadius: '50%'}}
+                        <img sytle={{borderRadius: '30%'}}
                         src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_oc=AQmRBoaJWaKCxzepIbsT9xGkh_uTclykSo-PVUYjFtFYPKFhWTLOORS-fzJuqunx_mo&_nc_ht=scontent-lax3-1.xx&oh=9a3d1fe818c1380c42270bbb7f90dd47&oe=5F0922D5"
                         alt="avatar"
                         className="avatar-img">
