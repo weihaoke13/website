@@ -38,48 +38,12 @@ class AboutMe extends Component{
                         <hr style={{borderTop:'3px solid #e22947'}}></hr>
                         <h2>Skills</h2>
                         <Skills
-<<<<<<< HEAD
-                            skill='HTML'
-                            progress={80}
-                        />
-                        <Skills
-=======
->>>>>>> parent of c34da45... add more skills
                             skill='Javascript'
                             progress={60}
                         />
                          <Skills
-<<<<<<< HEAD
-                            skill='React'
-                            progress={50}
-                        />
-                         <Skills
-                            skill='Vue.js'
-                            progress={30}
-                        />
-                         <Skills
-                            skill='Python'
-                            progress={55}
-                        />
-                        <Skills
-                            skill='Java'
-                            progress={85}
-                        />
-                        <Skills
-                            skill='C++'
-                            progress={75}
-                        />
-                         <Skills
-                            skill='PostgreSQL'
-                            progress={65}
-                        />
-                        <Skills
-                            skill='MySQL'
-                            progress={55}
-=======
                             skill='HTML & (S)CSS'
                             progress={80}
->>>>>>> parent of c34da45... add more skills
                         />
                          <Skills
                             skill='React'
