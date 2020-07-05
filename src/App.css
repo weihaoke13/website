@@ -1,28 +1,40 @@
 /* */
 .header-color{
-  background: #b92b27;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  /* background: #b92b27;  
+  /* background: -webkit-linear-gradient(to right, #1565C0, #b92b27); 
+  /* background: linear-gradient(to right, #1565C0, #b92b27);  */
+  background: #005C97;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+} 
+
 
 /* landing page css*/
 .landing-grid{
+  
+  background: #005C97;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
   text-align: center;
   /* position: fixed; */
   position: absolute;
-
   top: 0;
   left: 0;
   height:100%;
   width:100%;
-  background: #b92b27;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  
+
+  /* background: #b92b27;  
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27); 
   background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .avatar-img{
   height:250px;
   border-radius: 50%;  
+  margin-top: 5em;
   /* padding-top: 5em; */
 }
 
@@ -31,11 +43,11 @@
   opacity:0.8;
   width:72%;
   margin:auto;
-  border-radius:8px;
+  border-radius:6px;
 }
 
 .banner-text h1{
-  font-size:65px;
+  font-size:50px;
   font-weight: bold;
   color:white;
   text-align: center;
@@ -56,8 +68,8 @@
 
 .social-links{
   display:flex;
-  justify-content: space-around;
-  widows: 50%;
+  justify-content: space-between;
+  width: 80%;
   margin: auto;
 }
 
@@ -71,8 +83,17 @@
 /*project css */
 .project-grid{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+@media only screen and (max-width: 1100px) {
+  .project-grid {
+    display:flex;
+    flex-direction: column;
+
+  }
+}
+
 
 /* about me css*/
 .contact-body {
