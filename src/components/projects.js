@@ -13,12 +13,12 @@ class Projects extends Component{
             return(
                 <div className='project-grid'>
                     {/* project 1*/}
-                    <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                            Budget
                         </CardTitle>
                         <CardText>
-                        Budget App
+                        {/* Budget App */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/budget' target="_blank"> GitHub</Button>
@@ -30,12 +30,12 @@ class Projects extends Component{
                     </Card>
 
                     {/* project 2*/}
-                    <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                         Currency
                         </CardTitle>
                         <CardText>
-                            Currency App
+                            {/* Currency App */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/currency' target='_blank'> GitHub</Button>
@@ -47,12 +47,12 @@ class Projects extends Component{
                     </Card>
 
                      {/* project 3*/}
-                     <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                     <Card shadow={5} style={{minWidth:'400', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                             Receipe
                         </CardTitle>
                         <CardText>
-                            Receipe App
+                            {/* Receipe App */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/receipe' target='_blank'> GitHub</Button>
@@ -64,12 +64,12 @@ class Projects extends Component{
                     </Card>
 
                      {/* project 4*/}
-                    <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'400', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                             T-shirt customrize 
                         </CardTitle>
                         <CardText>
-                        T-shirt customrize app
+                        {/* T-shirt customrize app */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/mytshirtapp' target='_blank'> GitHub</Button>
@@ -82,12 +82,12 @@ class Projects extends Component{
 
 
                     {/* project 5*/}
-                    <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                    <Card shadow={5} style={{minWidth:'400', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                             To do list
                         </CardTitle>
                         <CardText>
-                            To do list App
+                            {/* To do list App */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/todolist' target='_blank'> GitHub</Button>
@@ -99,12 +99,12 @@ class Projects extends Component{
                     </Card>
 
                      {/* project 6*/}
-                     <Card shadow={5} style={{minWidth:'400', margin:'auto'}}>
+                     <Card shadow={5} style={{minWidth:'400', margin:'auto', marginTop:'10px'}}>
                         <CardTitle style={{color:'black', height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover'}}>
                             iStore
                         </CardTitle>
                         <CardText>
-                            iStore
+                            {/* iStore */}
                         </CardText>
                         <CardActions border>
                             <Button colored href='https://github.com/weihaoke13/iStore' target='_blank'> GitHub</Button>
@@ -124,7 +124,7 @@ class Projects extends Component{
                 <div className='project-grid'>
 
                 {/* project 1*/}
-                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                     <CardTitle style={{color:'black', height:'176px',background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>
                        Weather
                     </CardTitle>
@@ -141,7 +141,7 @@ class Projects extends Component{
                 </Card>
 
                 {/* project 2*/}
-                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                     <CardTitle style={{color:'black', height:'176px',background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>
                        RPS
                     </CardTitle>
@@ -160,7 +160,7 @@ class Projects extends Component{
                 
 
                 {/* project 3*/}
-                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                     <CardTitle style={{color:'black', height:'176px',background:'url(https://pluralsight.imgix.net/paths/path-icons/javascript-36f5949a45.png) center / cover'}}>
                        Sign in
                     </CardTitle>
@@ -213,7 +213,7 @@ class Projects extends Component{
                 <div className='project-grid'>
 
                 {/* project 1*/}
-                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                     <CardTitle style={{color:'black', height:'176px',background:'url(https://1000logos.net/wp-content/uploads/2016/10/Android-Logo.png) center / cover'}}>
                        CMO
                     </CardTitle>
@@ -230,7 +230,7 @@ class Projects extends Component{
                 </Card>
 
                 {/* project 2*/}
-                <Card shadow={5} style={{minWidth:'300', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth:'300', margin:'auto', marginTop:'10px'}}>
                     <CardTitle style={{color:'red', height:'176px',background:'url(https://i.ytimg.com/vi/06pWsB_hoD4/maxresdefault.jpg) center / cover'}}>
                        {/* LeapCal */}
                     </CardTitle>
