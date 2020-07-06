@@ -96,16 +96,45 @@ class AboutMe extends Component{
                         <h2>Skills</h2>
                         <Skills
                             skill='Javascript'
-                            progress={60}
+                            progress={70}
                         />
                          <Skills
-                            skill='HTML & (S)CSS'
+                            skill='HTML/CSS'
                             progress={80}
                         />
                          <Skills
                             skill='React'
+                            progress={60}
+                        />
+                        <Skills
+                            skill='Vue'
                             progress={50}
                         />
+                        <Skills
+                            skill='Java'
+                            progress={80}
+                        />
+                        <Skills
+                            skill='Python'
+                            progress={60}
+                        />
+                        <Skills
+                            skill='PostgreSQL'
+                            progress={60}
+                        />
+                        <Skills
+                            skill='MySql'
+                            progress={50}
+                        />
+                        <Skills
+                            skill='Git'
+                            progress={70}
+                        />
+                        <Skills
+                            skill='Flask'
+                            progress={60}
+                        />
+
                         
                     
                     </Cell>
