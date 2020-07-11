@@ -79,6 +79,16 @@
   padding:8px;
 }
 
+@media only screen and (max-width: 400px) {
+  .avatar-img{
+    height:150px;
+    border-radius: 50%;  
+    /* margin-top: 5em; */
+    /* padding-top: 5em; */
+  }
+}
+
+
 
 /*project css */
 .project-grid{
@@ -91,7 +101,6 @@
   .project-grid {
     display:flex;
     flex-direction: column;
-
   }
 }
 
