@@ -90,8 +90,8 @@ class Projects extends Component{
                             {/* To do list App */}
                         </CardText>
                         <CardActions border>
-                            <Button colored href='https://github.com/weihaoke13/todolist' target='_blank'> GitHub</Button>
-                            <Button colored href='https://weihaoke13.github.io/todolist/' target='_blank'> Demon</Button>
+                            <Button colored href='https://github.com/weihaoke13/todoist' target='_blank'> GitHub</Button>
+                            <Button colored href='https://sleepy-mahavira-422771.netlify.app/' target='_blank'> Demon</Button>
                         </CardActions>
                         <CardMenu style={{color:'#fff'}}>
                             <IconButton name='share' />
