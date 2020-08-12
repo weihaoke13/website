@@ -12,7 +12,7 @@ class AboutMe extends Component{
                 <Grid>
                     <Cell col={4} >
                         <div style={{textAlign:'center'}}>
-                            <img className='avatar-img' src=" https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_oc=AQnnncR9feELpQWvyk3IarTftWm03rC5d7RT_9iIH2qk7mzGT1GwN5FduazH8i1YVhw&_nc_ht=scontent-lax3-1.xx&oh=ee67bdb3df0c4f29cf5e414bbe4afc5b&oe=5F30AFD5"
+                            <img className='avatar-img' src=" https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=WKB2QqQNlQ4AX-l2Uok&_nc_ht=scontent-lax3-1.xx&oh=fad1debc7a3f049ceb2c6336c17eca07&oe=5F583CD5"
                              alt="avatar"
                              style={{height:'200px'}}
                             />
