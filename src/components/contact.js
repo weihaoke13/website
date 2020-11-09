@@ -9,7 +9,7 @@ class Contact extends Component{
                     <Cell col={6}>
                         <h2>Weihao Ke</h2>
                         <img className='avatar-img1 '
-                             src= "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=vZBro37AHBEAX-hjmLX&_nc_ht=scontent-lax3-1.xx&oh=ab3366ebaa69b2b618aa9d6219684a52&oe=5F8F9BD5"
+                             src= "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/71679939_2464225650331507_4169363528639053824_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=6FYD4kFeGY0AX_Y7zEc&_nc_ht=scontent-lax3-1.xx&oh=1a098482c738bb3601ed5a6f82f59407&oe=5FCEE3D5"
                              alt="avatar"
                              style={{height:'250px'}}
                         />
